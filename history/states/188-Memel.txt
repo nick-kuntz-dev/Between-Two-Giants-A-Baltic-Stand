@@ -9,6 +9,7 @@ state = {
 
 		owner = BAL
 		add_core_of = BAL
+		add_core_of = LIT
 		add_claim_by = PRE
 
 		victory_points = {
