@@ -12,7 +12,7 @@
 	default = no
 	
 	continuous_focus_position = { x = 5 y = 2000 }
-
+	### PreAssassination Tree
 	focus = {
 		id = BAL_another_year
 		icon = GFX_focus_generic_the_giant_wakes
@@ -67,7 +67,7 @@
 	}
 			}
 			
-			focus = {
+	focus = {
 		id = BAL_the_speech
 		icon = GFX_goal_generic_radar
 		prerequisite = { focus = BAL_prepare_speech }
@@ -78,11 +78,26 @@
 		cost = 1
 		
 		completion_reward = {
-		custom_effect_tooltip = BAL_the_speech_reward_tooltip
+			custom_effect_tooltip = BAL_the_speech_reward_tooltip
 		hidden_effect = {
 			
 		}
 	}
-
+			}
+		### democratic path (WIP)
+	focus = {
+		id = BAL_Our_Mourning
+		icon = GFX_goal_generic_radar
+		x = 
+		y = 
+		
+		cost = 
+		
+		completion_reward = {
+			
+		hidden_effect = {
+			
+		}
+	}
 			}
 }		
